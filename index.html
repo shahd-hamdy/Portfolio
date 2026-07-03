@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shahd Hamdy - Unity Game Developer & Gameplay Programmer Portfolio">
+    <title>Shahd Hamdy | Game Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">SH.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="icon-btn" aria-label="Toggle Dark Mode">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-background">
+            <div class="glow-orb orb-1"></div>
+            <div class="glow-orb orb-2"></div>
+        </div>
+        <div class="container hero-container reveal">
+            <div class="hero-content">
+                <p class="greeting">Hi hi, I'm</p>
+                <h1 class="name">Shahd Hamdy</h1>
+                <h2 class="title">Game Developer</h2>
+                <p class="headline">Unity Game Developer | C# Programmer</p>
+                <p class="career-objective">
+                    Aspiring to create innovative game experiences, continuously mastering modern technologies, and specializing in advanced gameplay systems and AI.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="my-character.png" alt="" class="character-img" style="mix-blend-mode: multiply;">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="about section">
+            <div class="container reveal">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+
+                    <div class="about-image">
+        <img src="my-character2.png" alt="" class="character-img" style="mix-blend-mode: multiply;">
+                    </div>
+                    <div class="about-text">
+                        <p>I am a passionate Unity Game Developer specializing in creating engaging 2D games using Unity and C#. I enjoy transforming ideas into interactive experiences while continuously improving my programming, game design, and problem-solving skills.</p>
+                        <p>I focus on writing clean, maintainable code and building enjoyable gameplay experiences. I am constantly learning new technologies and improving my technical abilities to create better games.</p>
+                        <p>I am interested in Gameplay Programming, Game Mechanics, AI for Games, and Interactive Systems.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills section bg-alt">
+            <div class="container reveal">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-code"></i></div>
+                        <h3>Programming</h3>
+                        <ul>
+                            <li>C#</li>
+                            <li>C++</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-unity"></i></div>
+                        <h3>Game Dev</h3>
+                        <ul>
+                            <li>Unity Engine</li>
+                            <li>Gameplay Programming</li>
+                            <li>Game Mechanics</li>
+                            <li>2D & 3D Game Development</li>
+                            <li>UI Systems</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                        <h3>Tools</h3>
+                        <ul>
+                            <li>GitHub</li>
+                            <li>Blender</li>
+                            <li>Visual Studio</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-users"></i></div>
+                        <h3>Soft Skills</h3>
+                        <ul>
+                            <li>Problem Solving</li>
+                            <li>Teamwork</li>
+                            <li>Fast Learner</li>
+                            <li>Communication</li>
+                            <li>Creativity</li>
+                            <li>Time Management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects section bg-alt">
+            <div class="container reveal">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Luxor (2D)</h3>
+                            <p class="project-desc">A 2D recreation inspired by the classic Luxor game, developed in Unity using C#. The project focuses on gameplay mechanics, object movement, collision detection, scoring systems, and interactive game logic.</p>
+                            <div class="project-tags">
+                                <span>Unity</span>
+                                <span>C#</span>
+                                <span>2D Physics</span>
+                            </div>
+                            <a href="#" class="btn btn-outline" target="_blank">View Project <i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Flappy Bird (2D)</h3>
+                            <p class="project-desc">A complete Flappy Bird clone built with Unity. Features smooth player controls, obstacle generation, collision detection, score tracking, and responsive gameplay.</p>
+                            <div class="project-tags">
+                                <span>Unity</span>
+                                <span>C#</span>
+                                <span>Game Logic</span>
+                            </div>
+                            <a href="#" class="btn btn-outline" target="_blank">View Project <i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services section">
+            <div class="container reveal">
+                <h2 class="section-title">What I Do</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-gamepad"></i></div>
+                        <h3>Unity Game Development</h3>
+                        <p>Building scalable and optimized games using the Unity Engine.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-cogs"></i></div>
+                        <h3>Gameplay Programming</h3>
+                        <p>Designing core game loops, player controls, and responsive mechanics.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-layer-group"></i></div>
+                        <h3>2D & 3D Game Development</h3>
+                        <p>Creating immersive 2D and 3D worlds, sprites, and physics integrations.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-puzzle-piece"></i></div>
+                        <h3>Game Prototyping</h3>
+                        <p>Rapidly developing functional prototypes to test innovative mechanics.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section bg-alt">
+            <div class="container reveal">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's Connect</h3>
+                        <p>I'm always open to discussing game development opportunities, collaborations, or just chatting about games.</p>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>devshahdhamdy@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Egypt</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/shahd-hamdy-544723359" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/shahd-hamdy" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://shahdhamdy.itch.io/" target="_blank" aria-label="Itch.io"><i class="fab fa-itch-io"></i></a>
+                            <a href="https://shahd05.artstation.com" target="_blank" aria-label="ArtStation"><i class="fab fa-artstation"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Shahd Hamdy. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
